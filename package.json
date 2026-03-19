@@ -1,0 +1,22 @@
+{
+  "name": "ems-rtms-backend",
+  "version": "1.0.0",
+  "description": "EMS RTMS SCADA Backend - Enterprise Energy Management & Real-Time Monitoring System",
+  "main": "server.js",
+  "scripts": {
+    "build": "node db/seed.js",
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node db/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "localtunnel": "^2.0.2",
+    "sql.js": "^1.11.0",
+    "uuid": "^11.0.3",
+    "ws": "^8.18.0"
+  }
+}
